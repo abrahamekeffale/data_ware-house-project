@@ -1,0 +1,18 @@
+# YOLOv5 and object detection dependencies
+torch>=1.7.0
+torchvision>=0.8.1
+opencv-python>=4.5.1
+
+# FastAPI and related dependencies
+fastapi==0.95.0
+uvicorn==0.22.0
+
+# Database dependencies
+SQLAlchemy==2.0.0
+psycopg2-binary==2.9.6
+
+# Pydantic for data validation in FastAPI
+pydantic==1.10.2
+
+# Optional: logging and monitoring (if needed)
+loguru==0.5.3
