@@ -1,5 +1,7 @@
 from sqlalchemy.orm import Session
-from . import models, schemas
+
+from . import models
+from .. import schemas
 
 def get_detection_results(db: Session, skip: int = 0, limit: int = 10):
     return db.query(models.DetectionResult).offset(skip).limit(limit).all()
